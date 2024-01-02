@@ -141,7 +141,7 @@ python -m torch.distributed.launch \
 You can conduct the evaluation with trained parameters as follows.
 ```
 python main.py \
-        --pretrained qpic_resnet50_hico.pth \
+        --pretrained SQDT_resnet50_hico.pth \
         --hoi \
         --dataset_file hico \
         --hoi_path data/hico_20160224_det \
